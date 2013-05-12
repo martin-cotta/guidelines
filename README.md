@@ -1,4 +1,8 @@
-guidelines
+### Dev Guidelines
 ==========
 
-Some Guidelines
+* [Git](git.md)
+* Android
+* Mac
+* .NET (C#)
+
