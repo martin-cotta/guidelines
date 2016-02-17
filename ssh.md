@@ -1,6 +1,6 @@
 ## SSH Identities (OS X)
 
-SSH keys are a way to identify trusted computers without involving passwords. You can generate an SSH key and add the public key to your GitHub/BitBucket/etc accounts.  
+SSH keys are a way to identify trusted computers without involving passwords. They are based on the SSH cryptographic network protocol, which is responsible for the encryption of the information stream between you and the remote machine.
 Since OS X Leopard (10.5.1), `ssh-agent` runs automatically for you. It will also integrate with the keychain, so you can unlock your keys with it.
 
 ```sh
