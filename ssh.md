@@ -4,9 +4,9 @@ SSH keys are a way to identify trusted computers without involving passwords. Th
 Since OS X Leopard (10.5.1), `ssh-agent` runs automatically for you. It will also integrate with the keychain, so you can unlock your keys with it.
 
 ```sh
-$ ls -al ~/.ssh            # checking for existing keys
+$ ls -al ~/.ssh/           # checking for existing keys
 $ ssh-add -l               # lists fingerprints of all identities loaded
-$ wwh-add -D               # deletes all identities from the agent
+$ ssh-add -D               # deletes all identities from the agent
 $ ps -e | grep [s]sh-agent # running agent(s)
 ```
 
